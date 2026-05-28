@@ -1,0 +1,5 @@
+2026-04-14 13:22:47 DEBUG TestLog4J:11 - This is Debug...!!
+2026-04-14 13:22:47 INFO  TestLog4J:12 - This is Info...!!
+2026-04-14 13:22:47 WARN  TestLog4J:13 - This is Warn...!!
+2026-04-14 13:22:47 ERROR TestLog4J:14 - This is Error...!!
+2026-04-14 13:22:47 FATAL TestLog4J:15 - This is Fatal...!!
