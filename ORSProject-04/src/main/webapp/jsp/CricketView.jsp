@@ -19,7 +19,7 @@
 </head>
 <body>
 	<form action="<%=ORSView.CRICKET_CTL%>" method="post">
-		<%@ include file="Header.jsp"%>
+		<%@ include file="ModuleView.jsp"%>
 
 		<jsp:useBean id="bean" class="in.co.rays.proj4.bean.CricketBean"
 			scope="request"></jsp:useBean>
@@ -74,7 +74,7 @@
 				<tr>
 					<th align="left">Runs<span style="color: red">*</span></th>
 					<td><input type="text" name="runs" placeholder="Enter Runs"
-						value="<%=DataUtility.getStringData(bean.getRuns())%>"></td>
+						value="<%=DataUtility.getStringData(bean.getRuns() > 0 ? bean.getRuns() : "")%>"></td>
 					<td style="position: fixed;"><font color="red"> <%=ServletUtility.getErrorMessage("runs", request)%></font></td>
 				</tr>
 
@@ -82,7 +82,7 @@
 					<th align="left">Matches<span style="color: red">*</span></th>
 					<td><input type="text" name="matches"
 						placeholder="Enter Matches"
-						value="<%=DataUtility.getStringData(bean.getMatches())%>"></td>
+						value="<%=DataUtility.getStringData(bean.getMatches() > 0 ? bean.getMatches() : "")%>"></td>
 					<td style="position: fixed;"><font color="red"> <%=ServletUtility.getErrorMessage("matches", request)%></font></td>
 				</tr>
 				<tr>

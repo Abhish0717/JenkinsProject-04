@@ -19,7 +19,7 @@
 </head>
 <body>
 	<form action="<%=ORSView.EMPLOYEE_CTL%>" method="post">
-		<%@ include file="Header.jsp"%>
+		<%@ include file="ModuleView.jsp"%>
 
 		<jsp:useBean id="bean" class="in.co.rays.proj4.bean.EmployeeBean"
 			scope="request"></jsp:useBean>

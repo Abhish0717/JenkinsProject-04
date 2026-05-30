@@ -94,9 +94,9 @@
 	<!-- Daily Module -->
 	<a href="<%=ORSView.MODULE_CTL%>"><b>Other Modules</b></a>
 	<b>|</b>
-	<a href="<%=ORSView.EMPLOYEE_CTL%>">Add Employee Payroll</a>
+	<a href="<%=ORSView.CAR_CTL%>">Add Car Rental</a>
 	<b>|</b>
-	<a href="<%=ORSView.EMPLOYEE_LIST_CTL%>">Employee Payroll List</a>
+	<a href="<%=ORSView.CAR_LIST_CTL%>">Car Rental List</a>
 	<%
 	}
 	%>

@@ -19,7 +19,7 @@
 </head>
 <body>
 	<form action="<%=ORSView.LOGIN_HISTORY_CTL%>" method="post">
-		<%@ include file="Header.jsp"%>
+		<%@ include file="ModuleView.jsp"%>
 
 		<jsp:useBean id="bean" class="in.co.rays.proj4.bean.LoginBean"
 			scope="request"></jsp:useBean>

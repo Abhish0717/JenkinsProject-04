@@ -15,7 +15,7 @@
 	href="<%=ORSView.APP_CONTEXT%>/img/logo.png" sizes="16x16" />
 </head>
 <body>
-	<%@include file="Header.jsp"%>
+	<%@include file="ModuleView.jsp"%>
 	<div align="center">
 		<jsp:useBean id="bean" class="in.co.rays.proj4.bean.ParkingBean"
 			scope="request"></jsp:useBean>

@@ -47,8 +47,6 @@
 			List<RoleBean> roleList = (List<RoleBean>) request.getAttribute("roleList");
 			List<UserBean> list = (List<UserBean>) ServletUtility.getList(request);
 			Iterator<UserBean> it = list.iterator();
-
-			if (list.size() != 0) {
 			%>
 
 			<input type="hidden" name="pageNo" value="<%=pageNo%>"> <input
@@ -125,7 +123,9 @@
 				}
 				%>
 			</table>
-
+			<%
+			if (list.size() != 0) {
+			%>
 			<table style="width: 100%">
 				<tr>
 					<td style="width: 25%"><input type="submit" name="operation"
@@ -147,6 +147,7 @@
 
 			<table>
 				<tr>
+				<br><br>
 					<td align="right"><input type="submit" name="operation"
 						value="<%=UserListCtl.OP_BACK%>"></td>
 				</tr>

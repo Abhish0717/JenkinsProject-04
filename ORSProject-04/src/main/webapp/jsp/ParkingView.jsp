@@ -19,7 +19,7 @@
 <body>
 	<form action="<%=ORSView.PARKING_CTL%>" method="post">
 
-		<%@ include file="Header.jsp"%>
+		<%@ include file="ModuleView.jsp"%>
 
 		<jsp:useBean id="bean" class="in.co.rays.proj4.bean.ParkingBean"
 			scope="request"></jsp:useBean>

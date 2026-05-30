@@ -415,4 +415,24 @@ public interface ORSView {
 	public String EMPLOYEE_LIST_VIEW = PAGE_FOLDER + "/EmployeeListView.jsp";
 	/** Employee List Controller URL */
 	public String EMPLOYEE_LIST_CTL = APP_CONTEXT + "/ctl/EmployeeListCtl";
+
+	/** Atm View JSP */
+	public String ATM_VIEW = PAGE_FOLDER + "/AtmView.jsp";
+	/** Atm Controller URL */
+	public String ATM_CTL = APP_CONTEXT + "/ctl/AtmCtl";
+	
+	/** Atm List JSP */
+	public String ATM_LIST_VIEW = PAGE_FOLDER + "/AtmListView.jsp";
+	/** Atm List Controller URL */
+	public String ATM_LIST_CTL = APP_CONTEXT + "/ctl/AtmListCtl";
+
+	/** Car View JSP */
+	public String CAR_VIEW = PAGE_FOLDER + "/CarView.jsp";
+	/** Car Controller URL */
+	public String CAR_CTL = APP_CONTEXT + "/ctl/CarCtl";
+	
+	/** Car List JSP */
+	public String CAR_LIST_VIEW = PAGE_FOLDER + "/CarListView.jsp";
+	/** Car List Controller URL */
+	public String CAR_LIST_CTL = APP_CONTEXT + "/ctl/CarListCtl";
 }
