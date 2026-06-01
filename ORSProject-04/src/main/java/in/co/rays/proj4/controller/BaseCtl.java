@@ -71,7 +71,8 @@ public abstract class BaseCtl extends HttpServlet {
 	 * @throws ServletException
 	 * @throws IOException
 	 */
-	protected void preload(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+	protected void preload(HttpServletRequest request, HttpServletResponse response)
+			throws IOException, ServletException {
 		log.debug("BaseCtl preload() called");
 	}
 
@@ -151,6 +152,9 @@ public abstract class BaseCtl extends HttpServlet {
 		log.info("BaseCtl service() started");
 
 		preload(request, response);
+		if (response.isCommitted()) {
+			return;
+		}
 
 		String op = DataUtility.getString(request.getParameter("operation"));
 		log.debug("Operation received: " + op);
