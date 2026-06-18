@@ -1,0 +1,18 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+	version="6.0">
+
+	<display-name>Archetype Created Web Application</display-name>
+
+	<error-page>
+		<exception-type>com.sunilos.p4.exception.ApplicationException</exception-type>
+		<location>/jsp/Error.jsp</location> <!-- Specify the location of your error page -->
+	</error-page>
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/jsp/404.jsp</location> <!-- Specify the location of your error page -->
+	</error-page>
+
+</web-app>

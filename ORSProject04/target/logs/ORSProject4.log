@@ -1,0 +1,120 @@
+2026-06-05 16:08:41 DEBUG BaseModel:21 - Model add Started
+2026-06-05 16:08:41 DEBUG BaseModel:108 - Model findBy EmailId Started
+2026-06-05 16:08:41 INFO  MLog:80 - MLog clients using log4j logging.
+2026-06-05 16:08:41 INFO  C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2026-06-05 16:08:42 DEBUG DynamicPooledDataSourceManagerMBean:236 - MBean: com.mchange.v2.c3p0:type=PooledDataSource[1hge13dbi15zxgsg1kmdpcn|19b843ba] registered.
+2026-06-05 16:08:42 DEBUG BasicResourcePool:404 - incremented pending_acquires: 1
+2026-06-05 16:08:42 DEBUG BasicResourcePool:289 - com.mchange.v2.resourcepool.BasicResourcePool@7daa0fbd config: [start -> 1; min -> 1; max -> 5; inc -> 1; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; mox_resource_age -> 0; max_idle_time -> 10000; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 2500; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false]
+2026-06-05 16:08:42 INFO  AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge13dbi15zxgsg1kmdpcn|19b843ba, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge13dbi15zxgsg1kmdpcn|19b843ba, idleConnectionTestPeriod -> 0, initialPoolSize -> 1, jdbcUrl -> jdbc:mysql://localhost:3306/p04, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 10, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {password=******, user=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2026-06-05 16:08:42 DEBUG BasicResourcePool:538 - acquire test -- pool size: 0; target_pool_size: 1; desired target? 1
+2026-06-05 16:08:42 DEBUG BasicResourcePool:404 - incremented pending_acquires: 2
+2026-06-05 16:08:42 DEBUG BasicResourcePool:1291 - awaitAvailable(): [unknown]
+2026-06-05 16:08:42 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7daa0fbd [managed: 0, unused: 0, excluded: 0]
+2026-06-05 16:08:43 DEBUG C3P0PooledConnectionPool:217 - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@4ae88823.acquireResource() returning. 
+2026-06-05 16:08:43 DEBUG C3P0PooledConnectionPool:217 - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@4ae88823.acquireResource() returning. 
+2026-06-05 16:08:43 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7daa0fbd [managed: 1, unused: 1, excluded: 0]
+2026-06-05 16:08:43 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7daa0fbd [managed: 1, unused: 0, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@63bd015b)
+2026-06-05 16:08:43 DEBUG BasicResourcePool:422 - decremented pending_acquires: 1
+2026-06-05 16:08:43 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7daa0fbd [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@63bd015b)
+2026-06-05 16:08:43 DEBUG BasicResourcePool:422 - decremented pending_acquires: 0
+2026-06-05 16:08:43 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7daa0fbd [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@63bd015b)
+2026-06-05 16:08:43 DEBUG NewProxyConnection:1260 - com.mchange.v2.c3p0.impl.NewProxyConnection@61fe30: close() called more than once.
+2026-06-05 16:08:43 DEBUG BaseModel:130 - Model findBy EmailId End
+2026-06-05 16:08:43 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7daa0fbd [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@63bd015b)
+2026-06-05 16:08:43 DEBUG BaseModel:49 - Model nextPK Started
+2026-06-05 16:08:43 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7daa0fbd [managed: 2, unused: 0, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@63bd015b)
+2026-06-05 16:08:43 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7daa0fbd [managed: 2, unused: 0, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@63bd015b)
+2026-06-05 16:08:43 DEBUG BaseModel:68 - Model nextPK End
+2026-06-05 16:08:43 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7daa0fbd [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@63bd015b)
+2026-06-05 16:08:43 DEBUG BaseModel:62 - Model add End
+2026-06-05 16:11:47 DEBUG BaseModel:241 - Model search Started
+2026-06-05 16:11:47 INFO  MLog:80 - MLog clients using log4j logging.
+2026-06-05 16:11:48 INFO  C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2026-06-05 16:11:48 DEBUG DynamicPooledDataSourceManagerMBean:236 - MBean: com.mchange.v2.c3p0:type=PooledDataSource[1hge13dbi1601gjc1bhmzi8|4ef74c30] registered.
+2026-06-05 16:11:48 DEBUG BasicResourcePool:404 - incremented pending_acquires: 1
+2026-06-05 16:11:48 DEBUG BasicResourcePool:289 - com.mchange.v2.resourcepool.BasicResourcePool@63611043 config: [start -> 1; min -> 1; max -> 5; inc -> 1; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; mox_resource_age -> 0; max_idle_time -> 10000; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 2500; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false]
+2026-06-05 16:11:48 INFO  AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge13dbi1601gjc1bhmzi8|4ef74c30, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge13dbi1601gjc1bhmzi8|4ef74c30, idleConnectionTestPeriod -> 0, initialPoolSize -> 1, jdbcUrl -> jdbc:mysql://localhost:3306/p04, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 10, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {password=******, user=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2026-06-05 16:11:48 DEBUG BasicResourcePool:538 - acquire test -- pool size: 0; target_pool_size: 1; desired target? 1
+2026-06-05 16:11:48 DEBUG BasicResourcePool:404 - incremented pending_acquires: 2
+2026-06-05 16:11:48 DEBUG BasicResourcePool:1291 - awaitAvailable(): [unknown]
+2026-06-05 16:11:48 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@63611043 [managed: 0, unused: 0, excluded: 0]
+2026-06-05 16:11:49 DEBUG C3P0PooledConnectionPool:217 - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@519c8d0f.acquireResource() returning. 
+2026-06-05 16:11:49 DEBUG C3P0PooledConnectionPool:217 - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@519c8d0f.acquireResource() returning. 
+2026-06-05 16:11:49 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@63611043 [managed: 1, unused: 1, excluded: 0]
+2026-06-05 16:11:49 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@63611043 [managed: 1, unused: 0, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@5baaa323)
+2026-06-05 16:11:49 DEBUG BasicResourcePool:422 - decremented pending_acquires: 1
+2026-06-05 16:11:49 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@63611043 [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@5baaa323)
+2026-06-05 16:11:49 DEBUG BasicResourcePool:422 - decremented pending_acquires: 0
+2026-06-05 16:11:49 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@63611043 [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@5baaa323)
+2026-06-05 16:11:49 DEBUG NewProxyConnection:1260 - com.mchange.v2.c3p0.impl.NewProxyConnection@1046d517: close() called more than once.
+2026-06-05 16:11:49 DEBUG BaseModel:272 - Model search End
+2026-06-05 16:14:23 DEBUG BaseModel:20 - Model add Started
+2026-06-05 16:14:23 DEBUG BaseModel:108 - Model findBy EmailId Started
+2026-06-05 16:14:23 INFO  MLog:80 - MLog clients using log4j logging.
+2026-06-05 16:14:23 INFO  C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2026-06-05 16:14:23 DEBUG DynamicPooledDataSourceManagerMBean:236 - MBean: com.mchange.v2.c3p0:type=PooledDataSource[1hge13dbi1604sgb1hy3kbi|456d6c1e] registered.
+2026-06-05 16:14:23 DEBUG BasicResourcePool:404 - incremented pending_acquires: 1
+2026-06-05 16:14:23 DEBUG BasicResourcePool:289 - com.mchange.v2.resourcepool.BasicResourcePool@181e731e config: [start -> 1; min -> 1; max -> 5; inc -> 1; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; mox_resource_age -> 0; max_idle_time -> 10000; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 2500; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false]
+2026-06-05 16:14:23 INFO  AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge13dbi1604sgb1hy3kbi|456d6c1e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge13dbi1604sgb1hy3kbi|456d6c1e, idleConnectionTestPeriod -> 0, initialPoolSize -> 1, jdbcUrl -> jdbc:mysql://localhost:3306/p04, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 10, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {password=******, user=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2026-06-05 16:14:23 DEBUG BasicResourcePool:538 - acquire test -- pool size: 0; target_pool_size: 1; desired target? 1
+2026-06-05 16:14:23 DEBUG BasicResourcePool:404 - incremented pending_acquires: 2
+2026-06-05 16:14:23 DEBUG BasicResourcePool:1291 - awaitAvailable(): [unknown]
+2026-06-05 16:14:23 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@181e731e [managed: 0, unused: 0, excluded: 0]
+2026-06-05 16:14:24 DEBUG C3P0PooledConnectionPool:217 - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@560caf9c.acquireResource() returning. 
+2026-06-05 16:14:24 DEBUG C3P0PooledConnectionPool:217 - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@560caf9c.acquireResource() returning. 
+2026-06-05 16:14:24 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@181e731e [managed: 1, unused: 1, excluded: 0]
+2026-06-05 16:14:24 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@181e731e [managed: 1, unused: 0, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@6eb6d36d)
+2026-06-05 16:14:24 DEBUG BasicResourcePool:422 - decremented pending_acquires: 1
+2026-06-05 16:14:24 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@181e731e [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@6eb6d36d)
+2026-06-05 16:14:24 DEBUG BasicResourcePool:422 - decremented pending_acquires: 0
+2026-06-05 16:14:24 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@181e731e [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@6eb6d36d)
+2026-06-05 16:14:24 DEBUG BaseModel:130 - Model findBy EmailId End
+2026-06-05 16:14:24 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@181e731e [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@6eb6d36d)
+2026-06-05 16:14:24 DEBUG BaseModel:49 - Model nextPK Started
+2026-06-05 16:14:24 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@181e731e [managed: 2, unused: 0, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@6eb6d36d)
+2026-06-05 16:14:24 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@181e731e [managed: 2, unused: 0, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@6eb6d36d)
+2026-06-05 16:14:24 DEBUG BaseModel:68 - Model nextPK End
+2026-06-05 16:14:24 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@181e731e [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@6eb6d36d)
+2026-06-05 16:14:24 DEBUG BaseModel:61 - Model add End
+2026-06-05 16:14:35 DEBUG BaseModel:241 - Model search Started
+2026-06-05 16:14:35 INFO  MLog:80 - MLog clients using log4j logging.
+2026-06-05 16:14:35 INFO  C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2026-06-05 16:14:35 DEBUG DynamicPooledDataSourceManagerMBean:236 - MBean: com.mchange.v2.c3p0:type=PooledDataSource[1hge13dbi16051qi4nu5g1|47c81abf] registered.
+2026-06-05 16:14:35 DEBUG BasicResourcePool:404 - incremented pending_acquires: 1
+2026-06-05 16:14:35 DEBUG BasicResourcePool:289 - com.mchange.v2.resourcepool.BasicResourcePool@7d9e8ef7 config: [start -> 1; min -> 1; max -> 5; inc -> 1; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; mox_resource_age -> 0; max_idle_time -> 10000; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 2500; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false]
+2026-06-05 16:14:35 INFO  AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge13dbi16051qi4nu5g1|47c81abf, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge13dbi16051qi4nu5g1|47c81abf, idleConnectionTestPeriod -> 0, initialPoolSize -> 1, jdbcUrl -> jdbc:mysql://localhost:3306/p04, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 10, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {password=******, user=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2026-06-05 16:14:35 DEBUG BasicResourcePool:538 - acquire test -- pool size: 0; target_pool_size: 1; desired target? 1
+2026-06-05 16:14:35 DEBUG BasicResourcePool:404 - incremented pending_acquires: 2
+2026-06-05 16:14:35 DEBUG BasicResourcePool:1291 - awaitAvailable(): [unknown]
+2026-06-05 16:14:35 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7d9e8ef7 [managed: 0, unused: 0, excluded: 0]
+2026-06-05 16:14:36 DEBUG C3P0PooledConnectionPool:217 - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@59e3ceba.acquireResource() returning. 
+2026-06-05 16:14:36 DEBUG C3P0PooledConnectionPool:217 - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@59e3ceba.acquireResource() returning. 
+2026-06-05 16:14:36 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7d9e8ef7 [managed: 1, unused: 1, excluded: 0]
+2026-06-05 16:14:36 DEBUG BasicResourcePool:422 - decremented pending_acquires: 1
+2026-06-05 16:14:36 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7d9e8ef7 [managed: 1, unused: 0, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@6757ae1c)
+2026-06-05 16:14:36 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7d9e8ef7 [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@6757ae1c)
+2026-06-05 16:14:36 DEBUG BasicResourcePool:422 - decremented pending_acquires: 0
+2026-06-05 16:14:36 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7d9e8ef7 [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@6757ae1c)
+2026-06-05 16:14:36 DEBUG NewProxyConnection:1260 - com.mchange.v2.c3p0.impl.NewProxyConnection@2bb3058: close() called more than once.
+2026-06-05 16:14:36 DEBUG BaseModel:272 - Model search End
+2026-06-05 16:15:40 DEBUG BaseModel:241 - Model search Started
+2026-06-05 16:15:40 INFO  MLog:80 - MLog clients using log4j logging.
+2026-06-05 16:15:41 INFO  C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2026-06-05 16:15:41 DEBUG DynamicPooledDataSourceManagerMBean:236 - MBean: com.mchange.v2.c3p0:type=PooledDataSource[1hge13dbi1606g5e1rstlg6|47c81abf] registered.
+2026-06-05 16:15:41 DEBUG BasicResourcePool:404 - incremented pending_acquires: 1
+2026-06-05 16:15:41 DEBUG BasicResourcePool:289 - com.mchange.v2.resourcepool.BasicResourcePool@7d9e8ef7 config: [start -> 1; min -> 1; max -> 5; inc -> 1; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; mox_resource_age -> 0; max_idle_time -> 10000; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 2500; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false]
+2026-06-05 16:15:41 INFO  AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge13dbi1606g5e1rstlg6|47c81abf, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge13dbi1606g5e1rstlg6|47c81abf, idleConnectionTestPeriod -> 0, initialPoolSize -> 1, jdbcUrl -> jdbc:mysql://localhost:3306/p04, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 10, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {password=******, user=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2026-06-05 16:15:41 DEBUG BasicResourcePool:538 - acquire test -- pool size: 0; target_pool_size: 1; desired target? 1
+2026-06-05 16:15:41 DEBUG BasicResourcePool:404 - incremented pending_acquires: 2
+2026-06-05 16:15:41 DEBUG BasicResourcePool:1291 - awaitAvailable(): [unknown]
+2026-06-05 16:15:41 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7d9e8ef7 [managed: 0, unused: 0, excluded: 0]
+2026-06-05 16:15:42 DEBUG C3P0PooledConnectionPool:217 - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@5ddb9f4f.acquireResource() returning. 
+2026-06-05 16:15:42 DEBUG C3P0PooledConnectionPool:217 - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@5ddb9f4f.acquireResource() returning. 
+2026-06-05 16:15:42 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7d9e8ef7 [managed: 1, unused: 1, excluded: 0]
+2026-06-05 16:15:42 DEBUG BasicResourcePool:422 - decremented pending_acquires: 1
+2026-06-05 16:15:42 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7d9e8ef7 [managed: 1, unused: 0, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@6c48cffe)
+2026-06-05 16:15:42 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7d9e8ef7 [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@6c48cffe)
+2026-06-05 16:15:42 DEBUG BasicResourcePool:422 - decremented pending_acquires: 0
+2026-06-05 16:15:42 DEBUG BasicResourcePool:1644 - trace com.mchange.v2.resourcepool.BasicResourcePool@7d9e8ef7 [managed: 2, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@6c48cffe)
+2026-06-05 16:15:42 DEBUG NewProxyConnection:1260 - com.mchange.v2.c3p0.impl.NewProxyConnection@2bb3058: close() called more than once.
+2026-06-05 16:15:42 DEBUG BaseModel:272 - Model search End
