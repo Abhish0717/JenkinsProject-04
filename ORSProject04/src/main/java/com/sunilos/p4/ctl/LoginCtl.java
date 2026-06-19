@@ -86,6 +86,8 @@ public class LoginCtl extends BaseCtl<UserBean, UserModel> {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
+		MessageSource ms = getMessageSource(request);
+
 		String msg = request.getParameter(BaseCtl.MSG_ERROR);
 
 		if (msg != null) {
@@ -97,7 +99,7 @@ public class LoginCtl extends BaseCtl<UserBean, UserModel> {
 		if (request.getParameter("operation") != null) {
 			if (session != null) {
 				session.invalidate();
-				ServletUtility.setSuccessMessage("user logout successfully", request);
+				ServletUtility.setSuccessMessage(ms.get("logout.success"), request);
 			}
 		}
 

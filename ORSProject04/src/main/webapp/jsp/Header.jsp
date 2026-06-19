@@ -434,10 +434,10 @@ String displayName = loggedIn ? userBean.getFirstName() + " (" + session.getAttr
 							style="width: 120px; background: rgba(255, 255, 255, 0.12); color: #fff; font-size: 0.82rem; cursor: pointer;">
 							<option value="en" <%=("en".equals(locale)) ? "selected" : ""%>
 								style="background: #0d2137; color: #fff;">&#127758;
-								<%=ms.get("lang.eng") %></option>
+								English</option>
 							<option value="hi" <%=("hi".equals(locale)) ? "selected" : ""%>
 								style="background: #0d2137; color: #fff;">&#127470;&#127475;
-								<%=ms.get("lang.hin") %></option>
+								हिंदी </option>
 						</select>
 					</form>
 				</li>

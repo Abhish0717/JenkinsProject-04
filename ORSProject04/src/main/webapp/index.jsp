@@ -1,8 +1,8 @@
+<%@ taglib uri="http://www.sunilos.com/ors-tags" prefix="ors"%>
 <%@page import="com.sunilos.p4.ctl.ORSView"%>
 <%@page import="com.sunilos.p4.util.DataValidator"%>
 
 <%@ page contentType="text/html; charset=UTF-8"%>
-<%@ taglib uri="http://www.sunilos.com/ors-tags" prefix="ors"%>
 
 <%
 String contextPath = request.getContextPath();

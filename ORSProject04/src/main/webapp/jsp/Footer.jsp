@@ -1,7 +1,6 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-
 <style>
 .footer {
 	width: 100%;
@@ -28,9 +27,7 @@
 <body>
 
 	<footer class="footer">
-		<small> <strong>&copy; 2026 Rays EdTech</strong> &nbsp;|&nbsp;
-			Online Result System &nbsp;|&nbsp; All Rights Reserved
-		</small>
+		<small> <strong><ors:message key="footer.msg" /></small>
 	</footer>
 
 </body>
