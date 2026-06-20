@@ -54,7 +54,7 @@ String displayName = loggedIn ? userBean.getFirstName() + " (" + session.getAttr
 						</li>
 						<li><a class="dropdown-item"
 							href="<%=ORSView.GET_MARKSHEET_CTL%>"> <i
-								class="bi bi-search me-2 text-info"></i><%=ms.get("marksheet.get") %>
+								class="bi bi-search me-2 text-info"></i><%=ms.get("marksheet.get")%>
 						</a></li>
 						<li><a class="dropdown-item"
 							href="<%=ORSView.MARKSHEET_MERIT_LIST_CTL%>"> <i
@@ -398,8 +398,8 @@ String displayName = loggedIn ? userBean.getFirstName() + " (" + session.getAttr
 							</h6>
 						</li>
 						<li><a class="dropdown-item" href="<%=ORSView.COURIER_CTL%>">
-								<i class="bi bi-plus-circle me-2 text-success"></i> Add Courier Tracking
-								Record
+								<i class="bi bi-plus-circle me-2 text-success"></i> Add Courier
+								Tracking Record
 						</a></li>
 
 						<li><a class="dropdown-item"
@@ -437,7 +437,8 @@ String displayName = loggedIn ? userBean.getFirstName() + " (" + session.getAttr
 								English</option>
 							<option value="hi" <%=("hi".equals(locale)) ? "selected" : ""%>
 								style="background: #0d2137; color: #fff;">&#127470;&#127475;
-								हिंदी </option>
+								<%=ms.get("lang.hin")%>
+							</option>
 						</select>
 					</form>
 				</li>
@@ -445,7 +446,7 @@ String displayName = loggedIn ? userBean.getFirstName() + " (" + session.getAttr
 				<!-- Home -->
 				<li class="nav-item"><a class="nav-link px-2"
 					href="<%=ORSView.WELCOME_CTL%>"> <i class="bi bi-house-fill"></i>
-						<span class="d-lg-none ms-1"><%=ms.get("welcome.home") %></span>
+						<span class="d-lg-none ms-1"><%=ms.get("welcome.home")%></span>
 				</a></li>
 
 				<!-- My Account dropdown (logged-in) -->
@@ -501,7 +502,7 @@ String displayName = loggedIn ? userBean.getFirstName() + " (" + session.getAttr
 				<li class="nav-item"><a
 					class="btn btn-sm btn-outline-light ms-1 px-3"
 					href="<%=ORSView.LOGIN_CTL%>"> <i
-						class="bi bi-box-arrow-in-right me-1"></i><%=ms.get("login.title") %>
+						class="bi bi-box-arrow-in-right me-1"></i><%=ms.get("login.title")%>
 				</a></li>
 				<%
 				}

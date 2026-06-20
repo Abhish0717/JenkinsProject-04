@@ -102,6 +102,12 @@ public interface ORSView {
 	/** Product List Controller URL */
 	public String PRODUCT_LIST_CTL = APP_CONTEXT + "/ctl/ProductListCtl";
 
+	/** Product List Controller URL */
+	public String PRODUCT_REPORT_CTL = APP_CONTEXT + "/ctl/ProductReportCtl";
+	/** Product List Controller URL */
+	public String PRODUCT_REPORT_VIEW = "/reports/ProductListReport.jrxml";
+	
+
 	/** Api View JSP */
 	public String API_VIEW = PAGE_FOLDER + "/ApiView.jsp";
 	/** Api Controller URL */
